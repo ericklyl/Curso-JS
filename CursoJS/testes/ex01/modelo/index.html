@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        .align-left{
+            text-align: left;
+        }
+        .align-rigth{
+            text-align: right;
+        }
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 30px;
+            padding-right: 30px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>Tabela IMC</h1>
+
+        <div class="flex-container">
+            <h3>IMC</h3>
+            <h3>Resultado</h3>
+            
+        </div>
+        <div class="flex-container">
+            <p>Menos do que 18,5</p>
+            <p>Abaixo do peso</p>
+        </div>
+        <div class="flex-container">
+            <p>Entre 18,5 e 24,9</p>
+            <p>Peso normal</p>
+        </div>
+        <div class="flex-container">
+            <p>Entre 25 e 29,9</p>
+            <p>Sobrepeso</p>
+        </div>    
+        <div class="flex-container">
+            <p>Entre 30 e 34,9</p>
+            <p>Obesidade grau 1</p>
+        </div>
+
+        <div class="flex-container">
+            <p>Entre 35 e 39,9</p>
+            <p>Obesidade 2</p>
+        </div>
+
+        <div class="flex-container">
+            <p>Mais do que 40</p>
+            <p>Obesidade grau 2</p>
+        </div>
+        
+        <div class="flex-container">
+            <p>Mais do que 40</p>
+            <p>Obesidade grau 3</p>
+        </div>
+
+            
+
+            
+        </div>
+        
+
+        <h1>Calcule seu IMC</h1>
+
+        <form action="/" id="formulario" method="post">
+            <label for="peso">Peso:</label>
+            <input type="text" id="peso" name="peso">
+
+            <label for="Altura">Altura:</label>
+            <input type="text" id="altura" name="altura">
+
+            <button>Calcular</button>
+        </form>
+
+        <div></div>
+
+    </section>
+
+    <script src="./assets/js/main.js">
+
+    </script>
+</body>
+
+</html>
